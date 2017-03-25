@@ -474,6 +474,7 @@ function getNewsFromItem(item) {
 }
 
 const arrItems = Tin.getAllItems();
+arrItems.pop();
 const arrTin = arrItems.map(getNewsFromItem);
 
 console.log(arrTin);
