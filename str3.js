@@ -283,4 +283,23 @@ class Tin {
     constructor(title, link, image, desc) {
 
     }
+    static getAllNews() {
+
+    }
+
+    static getAllItems() {
+        return data.split(`</item>
+<item>`);
+    }
 }
+
+const a = '????<title>Xin chao</title>\\\\';
+
+function getBody(str, pre, post) {
+    const start = str.indexOf(pre) + pre.length;
+    const end = str.indexOf(post);
+    return str.substring(start, end);
+}
+
+const b = getBody(a, '<title>', '</title>');
+console.log(b);
