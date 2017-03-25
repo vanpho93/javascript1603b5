@@ -464,4 +464,4 @@ function getBody(str, pre, post) {
 
 // const b = getBody(data, 'thoi-su.rss</link>', '</channel>');
 const items = Tin.getAllItems();
-console.log(items[1]);
+console.log(items[0]);

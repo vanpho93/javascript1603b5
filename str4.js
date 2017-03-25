@@ -17,3 +17,24 @@ http://vnexpress.net/tin-tuc/thoi-su/bo-nong-nghiep-kiem-tra-vet-ran-nut-tren-th
 http://vnexpress.net/tin-tuc/thoi-su/bo-nong-nghiep-kiem-tra-vet-ran-nut-tren-than-dap-dang-o-ha-tinh-3560819.html
 </guid>
 <slash:comments>0</slash:comments>`;
+
+function getBody(str, pre, post) {
+    const start = str.indexOf(pre) + pre.length;
+    const end = str.indexOf(post);
+    return str.substring(start, end);
+}
+
+// console.log(getBody(data, '<title>', '</title>').trim());
+// console.log(getBody(data, '<link>', '</link>').trim());
+// console.log(getBody(data, 'src="', '" ></a>').trim().replace('\n', ''));
+// console.log(getBody(data, '</a></br>', ']]>').trim().replace('\n', ''));
+
+function getNewsFromItem(item) {
+    const title = getBody(data, '<title>', '</title>').trim();
+    const link = getBody(data, '<link>', '</link>').trim();
+    const image = getBody(data, 'src="', '" ></a>').trim().replace('\n', '');
+    const desc = getBody(data, '</a></br>', ']]>').trim().replace('\n', '');
+    console.log(title, link, image, desc);
+}
+
+getNewsFromItem(data);
