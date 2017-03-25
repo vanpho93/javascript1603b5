@@ -444,14 +444,17 @@ http://video.vnexpress.net/tin-tuc/xa-hoi/chay-2-day-nha-cong-ty-may-o-can-tho-n
 
 class Tin {
     constructor(title, link, image, desc) {
-
+        this.title = title;
+        this.link = link;
+        this.image = image;
+        this.desc = desc;
     }
     static getAllNews() {
 
     }
 
     static getAllItems() {
-        const pureData = getBody(data, 'thoi-su.rss</link>', '</channel>');
+        const pureData = getBody(data, 'thoi-su.rss</link>', '</channel>').trim();
         return pureData.split(`</item>`);
     }
 }
@@ -462,6 +465,19 @@ function getBody(str, pre, post) {
     return str.substring(start, end);
 }
 
+function getNewsFromItem(item) {
+    const title = getBody(item, '<title>', '</title>').trim();
+    const link = getBody(item, '<link>', '</link>').trim();
+    const image = getBody(item, 'src="', '" ></a>').trim().replace('\n', '');
+    const desc = getBody(item, '</a></br>', ']]>').trim().replace('\n', '');
+    return new Tin(title, link, image, desc);
+}
+
+const arrItems = Tin.getAllItems();
+const arrTin = arrItems.map(getNewsFromItem);
+
+console.log(arrTin);
+
 // const b = getBody(data, 'thoi-su.rss</link>', '</channel>');
-const items = Tin.getAllItems();
-console.log(items[0]);
+// const items = Tin.getAllItems();
+// console.log(items[0]);
