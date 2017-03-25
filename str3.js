@@ -1,4 +1,6 @@
-const data = `<title>Thời sự - VnExpress RSS</title>
+const data = `<rss xmlns:slash="http://purl.org/rss/1.0/modules/slash/" version="2.0">
+<channel>
+<title>Thời sự - VnExpress RSS</title>
 <description>VnExpress RSS</description>
 <image>
 <url>
@@ -7,7 +9,7 @@ http://st.f1.vnecdn.net/responsive/i/v20/logos/vne_logo_rss.png
 <title>Tin nhanh VnExpress - Đọc báo, tin tức online 24h</title>
 <link>http://vnexpress.net</link>
 </image>
-<pubDate>Sat, 25 Mar 2017 20:00:24 +0700</pubDate>
+<pubDate>Sat, 25 Mar 2017 20:42:32 +0700</pubDate>
 <generator>VnExpress</generator>
 <link>http://vnexpress.net/rss/thoi-su.rss</link>
 <item>
@@ -28,16 +30,174 @@ http://vnexpress.net/tin-tuc/thoi-su/bo-nong-nghiep-kiem-tra-vet-ran-nut-tren-th
 </guid>
 <slash:comments>0</slash:comments>
 </item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
-<item>...</item>
+<item>
+<title>Cây xanh đô thị Việt Nam chỉ bằng 1/10 thế giới</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/cay-xanh-do-thi-viet-nam-chi-bang-1-10-the-gioi-3560821.html"><img width=130 height=100 src="http://img.f31.vnecdn.net/2017/03/25/banglang56691427769287-1490442051_180x108.jpg" ></a></br>Trong khi chỉ tiêu cây xanh của các thành phố hiện đại trên thế giới là từ 20 đến 25 m2 mỗi người, thì các đô thị của Việt Nam chỉ ở mức 2 đến 3 m2.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 19:26:14 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/cay-xanh-do-thi-viet-nam-chi-bang-1-10-the-gioi-3560821.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/cay-xanh-do-thi-viet-nam-chi-bang-1-10-the-gioi-3560821.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>
+Công ty may bị cháy đã mua gói bảo hiểm 550 tỷ đồng
+</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/cong-ty-may-bi-chay-da-mua-goi-bao-hiem-550-ty-dong-3560808.html"><img width=130 height=100 src="http://img.f32.vnecdn.net/2017/03/25/chaycongtymay-1490444195_180x108.jpg" ></a></br>Thiệt hại có thể lên đến 13 triệu USD, nhưng trước khi xảy ra hỏa hoạn, công ty may ở Cần Thơ đã mua bảo hiểm cháy nổ có mức bồi thường hơn 550 tỷ đồng.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 19:17:02 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/cong-ty-may-bi-chay-da-mua-goi-bao-hiem-550-ty-dong-3560808.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/cong-ty-may-bi-chay-da-mua-goi-bao-hiem-550-ty-dong-3560808.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>
+Ôtô tải xé toạc kính bên sườn xe giường nằm, 5 người nhập viện
+</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-tai-xe-toac-kinh-ben-suon-xe-giuong-nam-5-nguoi-nhap-vien-3560820.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/25/tn3-9460-1490442885_180x108.jpg" ></a></br>Sau khi va chạm với xe tải chở kính, toàn bộ kính sườn bên trái của xe khách 45 chỗ bị vỡ tan tại huyện Hàm Yên (Tuyên Quang).
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 19:07:11 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-tai-xe-toac-kinh-ben-suon-xe-giuong-nam-5-nguoi-nhap-vien-3560820.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/giao-thong/oto-tai-xe-toac-kinh-ben-suon-xe-giuong-nam-5-nguoi-nhap-vien-3560820.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Cháy hàng vàng mã ở chợ lớn thứ hai Huế</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/chay-hang-vang-ma-o-cho-lon-thu-hai-hue-3560822.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/25/1-5505-1490442133_180x108.jpg" ></a></br>Hàng trăm tiểu thương chợ An Cựu - chợ lớn thứ hai ở thành phố Huế - hốt hoảng thu dọn hàng hóa khi phát hiện ngọn lửa bùng lên từ tầng 2 khu buôn bán này.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 18:55:01 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/chay-hang-vang-ma-o-cho-lon-thu-hai-hue-3560822.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/chay-hang-vang-ma-o-cho-lon-thu-hai-hue-3560822.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>
+Hà Giang kiểm tra thông tin bổ nhiệm lái xe làm trưởng phòng hành chính
+</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/ha-giang-kiem-tra-thong-tin-bo-nhiem-lai-xe-lam-truong-phong-hanh-chinh-3560814.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/25/drivesafe-1490440947_180x108.jpg" ></a></br>Lãnh đạo tỉnh Hà Giang chỉ đạo làm rõ việc một đơn vị thuộc Sở Nông nghiệp bổ nhiệm lái xe làm trưởng phòng hành chính tổng hợp sai quy định, mặc dù việc bổ nhiệm này diễn ra nhiều năm trước.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 18:45:37 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/ha-giang-kiem-tra-thong-tin-bo-nhiem-lai-xe-lam-truong-phong-hanh-chinh-3560814.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/ha-giang-kiem-tra-thong-tin-bo-nhiem-lai-xe-lam-truong-phong-hanh-chinh-3560814.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Đón không khí lạnh, miền Bắc giảm gần 10 độ C</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/don-khong-khi-lanh-mien-bac-giam-gan-10-do-c-3560813.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/25/ret-9923-1490440028_180x108.jpg" ></a></br>26/3 sẽ là ngày rét nhất trong đợt lạnh kéo dài ba ngày, với nền nhiệt một số nơi dưới 10 độ C và cao nhất trong ngày không quá 20 độ C.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 18:15:14 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/don-khong-khi-lanh-mien-bac-giam-gan-10-do-c-3560813.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/don-khong-khi-lanh-mien-bac-giam-gan-10-do-c-3560813.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Đồng Nai ngập nặng sau cơn mưa lớn trái mùa</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/dong-nai-ngap-nang-sau-con-mua-lon-trai-mua-3560800.html"><img width=130 height=100 src="http://img.f31.vnecdn.net/2017/03/25/ngap2-1490434329-2986-1490434575_180x108.jpg" ></a></br>Trưa 25/3, cơn mưa lớn trái mùa kéo dài gần 2 giờ khiến nhiều tuyến đường trung tâm TP Biên Hòa chìm trong biển nước.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 17:49:08 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/dong-nai-ngap-nang-sau-con-mua-lon-trai-mua-3560800.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/dong-nai-ngap-nang-sau-con-mua-lon-trai-mua-3560800.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Thanh niên cố thủ trên trụ điện cao thế nhiều giờ</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/tin-tuc/thoi-su/thanh-nien-co-thu-tren-tru-dien-cao-the-nhieu-gio-3560772.html"><img width=130 height=100 src="http://img.f31.vnecdn.net/2017/03/25/trudien1-1490429188_180x108.jpg" ></a></br>Trưa 25/3, nam thanh niên đã trèo lên cột điện cao thế 220kV Mỹ Phước - Tây Ninh (đoạn qua tỉnh Bình Dương) khiến nhiều khu vực bị mất điện.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 15:16:39 +0700</pubDate>
+<link>
+http://vnexpress.net/tin-tuc/thoi-su/thanh-nien-co-thu-tren-tru-dien-cao-the-nhieu-gio-3560772.html
+</link>
+<guid>
+http://vnexpress.net/tin-tuc/thoi-su/thanh-nien-co-thu-tren-tru-dien-cao-the-nhieu-gio-3560772.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>
+Nông dân khóc nấc nhìn hàng tấn dứa thối nghi do khói nhà máy
+</title>
+<description>
+<![CDATA[
+<a href="http://video.vnexpress.net/tin-tuc/xa-hoi/nong-dan-khoc-nac-nhin-hang-tan-dua-thoi-nghi-do-khoi-nha-may-3560667.html"><img width=130 height=100 src="http://img.f31.vnecdn.net/2017/03/25/17521675102089523974273091352746613o-1490436784_180x108.jpg" ></a></br>Người dân xã Bản Lầu (Mường Khương, Lào Cai) đang điêu đứng, mất trắng mùa dứa do hàng trăm tấn đến ngày thu hoạch bất ngờ thối quả, táp lá và chết nghi do khói nhà máy luyện kim.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 09:57:52 +0700</pubDate>
+<link>
+http://video.vnexpress.net/tin-tuc/xa-hoi/nong-dan-khoc-nac-nhin-hang-tan-dua-thoi-nghi-do-khoi-nha-may-3560667.html
+</link>
+<guid>
+http://video.vnexpress.net/tin-tuc/xa-hoi/nong-dan-khoc-nac-nhin-hang-tan-dua-thoi-nghi-do-khoi-nha-may-3560667.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
+<item>
+<title>Những cô giáo vừa giỏi, vừa duyên dáng</title>
+<description>
+<![CDATA[
+<a href="http://vnexpress.net/photo/giao-duc/nhung-co-giao-vua-gioi-vua-duyen-dang-3560625.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/25/HUY-3441-1490406471_180x108.jpg" ></a></br>Tối 24/3, tại hội thi cô giáo tài năng duyên dáng toàn quốc tổ chức ở Đại học Sư phạm Hà Nội, 49 giáo viên từ mầm non đến THPT đã có màn trình diễn áo dài đẹp mắt trong sự cổ vũ của đồng nghiệp.
+]]>
+</description>
+<pubDate>Sat, 25 Mar 2017 09:34:32 +0700</pubDate>
+<link>
+http://vnexpress.net/photo/giao-duc/nhung-co-giao-vua-gioi-vua-duyen-dang-3560625.html
+</link>
+<guid>
+http://vnexpress.net/photo/giao-duc/nhung-co-giao-vua-gioi-vua-duyen-dang-3560625.html
+</guid>
+<slash:comments>0</slash:comments>
+</item>
 <item>
 <title>
 Những chính sách, chỉ đạo nổi bật của Chính phủ trong tuần
@@ -212,7 +372,10 @@ Hơn 500 hộ nuôi cá lồng trên lòng hồ thủy điện Na Hang
 </title>
 <description>
 <![CDATA[
-<a href="http://vnexpress.net/tin-tuc/thoi-su/nong-nghiep-sach/hon-500-ho-nuoi-ca-long-tren-long-ho-thuy-dien-na-hang-3560082.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/24/Untitled-7559-1490326143_180x108.png" ></a></br>Tận dụng nguồn nước trong, mát lành với dòng chảy liên tục, cung cấp lượng thức ăn phong phú, hơn 500 hộ dân tại Na Hang, Tuyên Quang đã triển khai mô hình nuôi cá lồng trên lòng hồ thủy điện với sản lượng khoảng 320 tấn cá sạch mỗi năm.
+<a href="http://vnexpress.net/tin-tuc/thoi-su/nong-nghiep-sach/hon-500-ho-nuoi-ca-long-tren-long-ho-thuy-dien-na-hang-3560082.html"><img width=130 height=100 src="http://img.f30.vnecdn.net/2017/03/24/Untitled-7559-1490326143_180x108.png" ></a></br>Tận dụng nguồn nước trong, mát lành với
+]]>
+<![CDATA[
+dòng chảy liên tục, cung cấp lượng thức ăn phong phú, hơn 500 hộ dân tại Na Hang, Tuyên Quang đã triển khai mô hình nuôi cá lồng trên lòng hồ thủy điện với sản lượng khoảng 320 tấn cá sạch mỗi năm.
 ]]>
 </description>
 <pubDate>Sat, 25 Mar 2017 08:00:00 +0700</pubDate>
@@ -288,12 +451,10 @@ class Tin {
     }
 
     static getAllItems() {
-        return data.split(`</item>
-<item>`);
+        const pureData = getBody(data, 'thoi-su.rss</link>', '</channel>');
+        return pureData.split(`</item>`);
     }
 }
-
-const a = '????<title>Xin chao</title>\\\\';
 
 function getBody(str, pre, post) {
     const start = str.indexOf(pre) + pre.length;
@@ -301,5 +462,6 @@ function getBody(str, pre, post) {
     return str.substring(start, end);
 }
 
-const b = getBody(a, '<title>', '</title>');
-console.log(b);
+// const b = getBody(data, 'thoi-su.rss</link>', '</channel>');
+const items = Tin.getAllItems();
+console.log(items[1]);
